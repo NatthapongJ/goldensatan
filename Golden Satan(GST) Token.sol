@@ -349,7 +349,7 @@ contract BEP20Token is Context, IBEP20, Ownable {
   string private _symbol;
   string private _name;
 
-  constructor() public {
+  constructor()  {
     _name = "Golden Satan";
     _symbol = "GST";
     _decimals = 18;
